@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  CineWatch
+
+  Created by Andika on 31/10/21.
+  
+*/
+
+// Onboard
+"WELCOME_TEXT" = "Selamat datang di\nCineWatch!";
+
+"ONBOARDING_NOW_PLAYING" = "Sedang Diputar";
+"ONBOARDING_NOW_PLAYING_DESCRIPTION" = "Jelajahi film yang sedang diputar di bioskop!";
+
+"ONBOARDING_UPCOMING" = "Yang Akan Datang";
+"ONBOARDING_UPCOMING_DESCRIPTION" = "Cari dan temukan film binge kamu selanjutnya";
+
+"ONBOARDING_WATCHLIST" = "Menantikan untuk ditonton?";
+"ONBOARDING_WATCHLIST_DESCRIPTION" = "Simpan ke daftar tonton pribadi kamu!";
+
+"ONBOARDING_SEARCH" = "Jelajahi Lebih dari 800Rb Film";
+"ONBOARDING_SEARCH_DESCRIPTION" = "Didukung oleh TMDB, CineWatch menyediakan lebih dari 800 ribu film dan serial TV untuk dijelajahi!";
+
+"WATCHLIST_UPDATE_DESCRIPTION" = "Untuk memberikan kamu banyak pilihan untuk dicari, kami memindahkan tab daftar tonton ke menu akun. Ini cara mengakses daftar nontonmu:";
+"WATCHLIST_STEP1" = "Ketuk pada tab \"Pencarian\"";
+"WATCHLIST_STEP1_DESCRIPTION" = "Kamu akan menemukannya setelah kamu menyelesaikan langkah ini.";
+
+"WATCHLIST_STEP2" = "Ketuk pada gambar \"Akun\"";
+"WATCHLIST_STEP2_DESCRIPTION" = "Kamu akan menemukannya di pojok kanan atas halaman Pencarian.";
+
+"WATCHLIST_STEP3" = "Ketuk pada \"🎞 Daftar Tonton\"";
+"WATCHLIST_STEP3_DESCRIPTION" = "Tada! Kamu menemukannya!";
+
+// State
+"LOADING" = "Memuat";
+"GETTING_MORE_MOVIES" = "Mencari Film Lainnya...";
+
+// Action
+"NEXT" = "Lanjut";
+"DONE" = "Selesai";
+"TRY_AGAIN" = "Coba Lagi";
+"ACTION_CANCEL" = "Batalkan";
+"ACTION_CONFIRM" = "Ya";
+
+// Tab menu
+"DISCOVER" = "Jelajahi";
+"NOW_PLAYING" = "Sedang Diputar";
+"UPCOMING" = "Akan Datang";
+"WATCH_LIST" = "Daftar Tonton";
+"SEARCH" = "Pencarian";
+"GENRE" = "Genre";
+
+// Movie detail
+"SHARE_SHEET_TEXT %@" = "Saya baru saja menemukan %@ di CineWatch. Ayo cek film ini!";
+"DURATION_MIN" = "Menit";
+"CHARACTER_AS" = "sebagai";
+
+// Search view
+"DISCOVER_CINEWATCH" = "Populer di CineWatch";
+"RESULTS_FOR %@" = "Hasil untuk \"%@\"";
+
+// Account view
+"MY_ACCOUNT" = "Akun Saya";
+"ACCOUNT" = "Akun";
+"GENERAL" = "Umum";
+"SOFTWARE_LICENSE" = "Lisensi Perangkat Lunak";
+"LICENSES" = "Lisensi";
+"MEET_THE_DEVELOPER" = "Temui Pengembang";
+"DEVELOPER_INFO" = "Informasi Pengembang";
+"PERSONAL_DETAILS" = "Detail Pribadi";
+"CLEAR_WATCHLIST" = "Atur Ulang Daftar Tonton";
+"ALERT_CLEAR_WATCHLIST" = "Atur ulang daftar tonton?";
+"ALERT_CLEAR_WATCHLIST_DESCRIPTION" = "Semua film di daftar tontoh akan dihapus dan tidak dapat dikembalikan setelah pengaturan ulang.";

@@ -1,0 +1,18 @@
+// HTTP/Remote error message
+"HTTP_ERROR_EXPLANATION" = "Ada masalah pada saat memproses permintaan kamu";
+"CUSTOM_NETWORK_ERROR_EXPLANATION" = "Ada masalah pada permintaan kamu";
+"HTTP_REDIRECTION" = "sepertinya ada yang kusut dengan API TMDB.";
+"HTTP_CLIENT_ERROR" = "sepertinya ada yang salah dengan CineWatch.";
+"HTTP_SERVER_ERROR" = "sepertinya ada yang salah dengan API TMDB.";
+"AF_PROCESS_ERROR" = "sepertinya ada masalah pada saat menghubungi API TMDB.";
+
+// Realm/Local error message
+"DECODING_ERROR_EXPLANATION" = "Ada masalah pada saat memproses permintaan kamu";
+"LDB_ERROR_EXPLANATION" = "Ada masalah menghubungi database";
+"CUSTOM_DATA_ERROR_EXPLANATION" = "Ada masalah pada permintaan kamu";
+"REALM_INIT_FAIL" = "sepertinya database tidak dapat dihubungi.";
+"REALM_WRITE_FAIL" = "sepertinya database gagal menyimpan data.";
+"REALM_READ_FAIL" = "sepertinya database gagal pada saat membaca data.";
+"REALM_DELETE_FAIL" = "sepertinya database gagal pada saat menghapus data.";
+"AF_DECODER_FAIL" = "sepertinya format data salah.";
+"LOCAL_STORAGE_EMPTY" = "sepertinya kosong disini.";

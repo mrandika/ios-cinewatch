@@ -1,0 +1,53 @@
+name: Build CineWatch
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build and Test Module and Main App using Xcode 13.1 and iPhone 8 (iOS 15.0) simulator
+    runs-on: macos-11
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '13.1'
+      - name: Check SwiftLint
+        run: |
+          swiftlint --config .swiftlint.yml
+      - name: Build CWAPI
+        run: |
+          cd Modules/CWAPI
+          swift build
+      - name: Build & Test CWMovie
+        run: |
+          cd Modules/CWMovie
+          swift build
+          swift test
+      - name: Build & Test CWMovieWatchlist
+        run: |
+          cd Modules/CWMovieWatchlist
+          swift build
+          swift test
+      - name: Build & Test CWMovieDetail
+        run: |
+          cd Modules/CWMovieDetail
+          swift build
+          swift test
+      - name: Build & Test CWMovieGenre
+        run: |
+          cd Modules/CWMovieGenre
+          swift build
+          swift test
+      - name: Build CWSharedView
+        run: |
+          cd Modules/CWSharedView
+          swift build
+      - name: Build Main App
+        run: |
+          xcodebuild -project 'CineWatch.xcodeproj' -scheme 'CineWatch' -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 8'

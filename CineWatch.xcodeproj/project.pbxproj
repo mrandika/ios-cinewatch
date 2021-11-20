@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090DB80D272C2C1800914389 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090DB80C272C2C1800914389 /* AppState.swift */; };
+		090DB80F272C361400914389 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090DB80E272C361400914389 /* OnboardingView.swift */; };
+		0964532C272EC403007AD1E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0964532E272EC403007AD1E8 /* Localizable.strings */; };
+		09896391274654120060B186 /* CWDetailPage in Frameworks */ = {isa = PBXBuildFile; productRef = 09896390274654120060B186 /* CWDetailPage */; };
+		09896393274654120060B186 /* CWMoviePage in Frameworks */ = {isa = PBXBuildFile; productRef = 09896392274654120060B186 /* CWMoviePage */; };
+		09896398274658BA0060B186 /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09896396274658BA0060B186 /* LicenseView.swift */; };
+		09896399274658BA0060B186 /* DeveloperInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09896397274658BA0060B186 /* DeveloperInfoView.swift */; };
+		0989639B274658E20060B186 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989639A274658E20060B186 /* AccountView.swift */; };
+		098D651B2743F34400A11982 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D651A2743F34400A11982 /* Injection.swift */; };
+		09A778E82746833500DEADFF /* CWGenrePage in Frameworks */ = {isa = PBXBuildFile; productRef = 09A778E72746833500DEADFF /* CWGenrePage */; };
+		09AB8E2B2721A8BF007742E4 /* CineWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB8E2A2721A8BF007742E4 /* CineWatchApp.swift */; };
+		09AB8E2D2721A8BF007742E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB8E2C2721A8BF007742E4 /* ContentView.swift */; };
+		09AB8E2F2721A8C1007742E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB8E2E2721A8C1007742E4 /* Assets.xcassets */; };
+		09AB8E322721A8C1007742E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB8E312721A8C1007742E4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0904E8EF273AAB63004F1E51 /* CineWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineWatchTests.swift; sourceTree = "<group>"; };
+		090DB80C272C2C1800914389 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		090DB80E272C361400914389 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0936FDB3273A39BC0081C87D /* CineWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CineWatch.entitlements; sourceTree = "<group>"; };
+		0964532D272EC403007AD1E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		09645331272ED6BB007AD1E8 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0989638E274653F10060B186 /* CWMoviePage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CWMoviePage; path = Modules/CWMoviePage; sourceTree = "<group>"; };
+		0989638F274654080060B186 /* CWDetailPage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CWDetailPage; path = Modules/CWDetailPage; sourceTree = "<group>"; };
+		09896396274658BA0060B186 /* LicenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
+		09896397274658BA0060B186 /* DeveloperInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperInfoView.swift; sourceTree = "<group>"; };
+		0989639A274658E20060B186 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		098D651A2743F34400A11982 /* Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		09A778E6274681D400DEADFF /* CWGenrePage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CWGenrePage; path = Modules/CWGenrePage; sourceTree = "<group>"; };
+		09AB8E272721A8BF007742E4 /* CineWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AB8E2A2721A8BF007742E4 /* CineWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineWatchApp.swift; sourceTree = "<group>"; };
+		09AB8E2C2721A8BF007742E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09AB8E2E2721A8C1007742E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09AB8E312721A8C1007742E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09AB8E432721ACDD007742E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09AB8E242721A8BF007742E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A778E82746833500DEADFF /* CWGenrePage in Frameworks */,
+				09896393274654120060B186 /* CWMoviePage in Frameworks */,
+				09896391274654120060B186 /* CWDetailPage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0904E8EE273AAB63004F1E51 /* CineWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0904E8EF273AAB63004F1E51 /* CineWatchTests.swift */,
+			);
+			path = CineWatchTests;
+			sourceTree = "<group>";
+		};
+		09645329272EC3E1007AD1E8 /* Asset+Resource */ = {
+			isa = PBXGroup;
+			children = (
+				09AB8E2E2721A8C1007742E4 /* Assets.xcassets */,
+				0964532E272EC403007AD1E8 /* Localizable.strings */,
+			);
+			path = "Asset+Resource";
+			sourceTree = "<group>";
+		};
+		09896394274658A50060B186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09896395274658BA0060B186 /* Account */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09896395274658BA0060B186 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				09896396274658BA0060B186 /* LicenseView.swift */,
+				09896397274658BA0060B186 /* DeveloperInfoView.swift */,
+				0989639A274658E20060B186 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		098D65162743F0EE00A11982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		098D65192743F31700A11982 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				098D651A2743F34400A11982 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		09AB8E1E2721A8BF007742E4 = {
+			isa = PBXGroup;
+			children = (
+				09E699532739770D00C2CF6D /* Packages */,
+				09AB8E292721A8BF007742E4 /* CineWatch */,
+				0904E8EE273AAB63004F1E51 /* CineWatchTests */,
+				09AB8E282721A8BF007742E4 /* Products */,
+				098D65162743F0EE00A11982 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09AB8E282721A8BF007742E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09AB8E272721A8BF007742E4 /* CineWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09AB8E292721A8BF007742E4 /* CineWatch */ = {
+			isa = PBXGroup;
+			children = (
+				098D65192743F31700A11982 /* DI */,
+				09AB8E382721AB9F007742E4 /* App */,
+				09645329272EC3E1007AD1E8 /* Asset+Resource */,
+				0936FDB3273A39BC0081C87D /* CineWatch.entitlements */,
+				09AB8E432721ACDD007742E4 /* Info.plist */,
+				09AB8E302721A8C1007742E4 /* Preview Content */,
+			);
+			path = CineWatch;
+			sourceTree = "<group>";
+		};
+		09AB8E302721A8C1007742E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09AB8E312721A8C1007742E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09AB8E382721AB9F007742E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				09AB8E2A2721A8BF007742E4 /* CineWatchApp.swift */,
+				090DB80E272C361400914389 /* OnboardingView.swift */,
+				09AB8E2C2721A8BF007742E4 /* ContentView.swift */,
+				090DB80C272C2C1800914389 /* AppState.swift */,
+				09896394274658A50060B186 /* View */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		09E699532739770D00C2CF6D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0989638E274653F10060B186 /* CWMoviePage */,
+				0989638F274654080060B186 /* CWDetailPage */,
+				09A778E6274681D400DEADFF /* CWGenrePage */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09AB8E262721A8BF007742E4 /* CineWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09AB8E352721A8C1007742E4 /* Build configuration list for PBXNativeTarget "CineWatch" */;
+			buildPhases = (
+				09AB8E232721A8BF007742E4 /* Sources */,
+				09AB8E242721A8BF007742E4 /* Frameworks */,
+				09AB8E252721A8BF007742E4 /* Resources */,
+				090DB810272C39EA00914389 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CineWatch;
+			packageProductDependencies = (
+				09896390274654120060B186 /* CWDetailPage */,
+				09896392274654120060B186 /* CWMoviePage */,
+				09A778E72746833500DEADFF /* CWGenrePage */,
+			);
+			productName = CineWatch;
+			productReference = 09AB8E272721A8BF007742E4 /* CineWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09AB8E1F2721A8BF007742E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					09AB8E262721A8BF007742E4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 09AB8E222721A8BF007742E4 /* Build configuration list for PBXProject "CineWatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = 09AB8E1E2721A8BF007742E4;
+			packageReferences = (
+			);
+			productRefGroup = 09AB8E282721A8BF007742E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09AB8E262721A8BF007742E4 /* CineWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09AB8E252721A8BF007742E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AB8E322721A8C1007742E4 /* Preview Assets.xcassets in Resources */,
+				0964532C272EC403007AD1E8 /* Localizable.strings in Resources */,
+				09AB8E2F2721A8C1007742E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090DB810272C39EA00914389 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint --config .swiftlint.yml\nelse\n    echo \"Warning, SwiftLint not installed!\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09AB8E232721A8BF007742E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09896399274658BA0060B186 /* DeveloperInfoView.swift in Sources */,
+				098D651B2743F34400A11982 /* Injection.swift in Sources */,
+				090DB80F272C361400914389 /* OnboardingView.swift in Sources */,
+				090DB80D272C2C1800914389 /* AppState.swift in Sources */,
+				0989639B274658E20060B186 /* AccountView.swift in Sources */,
+				09AB8E2D2721A8BF007742E4 /* ContentView.swift in Sources */,
+				09896398274658BA0060B186 /* LicenseView.swift in Sources */,
+				09AB8E2B2721A8BF007742E4 /* CineWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0964532E272EC403007AD1E8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0964532D272EC403007AD1E8 /* en */,
+				09645331272ED6BB007AD1E8 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09AB8E332721A8C1007742E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09AB8E342721A8C1007742E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09AB8E362721A8C1007742E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CineWatch/CineWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CineWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = BTAM83YYJR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.mrandika.CineWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09AB8E372721A8C1007742E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CineWatch/CineWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CineWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = BTAM83YYJR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineWatch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.mrandika.CineWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09AB8E222721A8BF007742E4 /* Build configuration list for PBXProject "CineWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AB8E332721A8C1007742E4 /* Debug */,
+				09AB8E342721A8C1007742E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09AB8E352721A8C1007742E4 /* Build configuration list for PBXNativeTarget "CineWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AB8E362721A8C1007742E4 /* Debug */,
+				09AB8E372721A8C1007742E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09896390274654120060B186 /* CWDetailPage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CWDetailPage;
+		};
+		09896392274654120060B186 /* CWMoviePage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CWMoviePage;
+		};
+		09A778E72746833500DEADFF /* CWGenrePage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CWGenrePage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09AB8E1F2721A8BF007742E4 /* Project object */;
+}

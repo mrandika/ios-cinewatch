@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  CineWatch
+
+  Created by Andika on 31/10/21.
+  
+*/
+
+// Onboard
+"WELCOME_TEXT" = "Welcome to\nCineWatch!";
+
+"ONBOARDING_NOW_PLAYING" = "Now Playing";
+"ONBOARDING_NOW_PLAYING_DESCRIPTION" = "Discover newly played movie at the cinema!";
+
+"ONBOARDING_UPCOMING" = "Upcoming Movie";
+"ONBOARDING_UPCOMING_DESCRIPTION" = "Discover whats your next binge list!";
+
+"ONBOARDING_WATCHLIST" = "Looking forward to watch?";
+"ONBOARDING_WATCHLIST_DESCRIPTION" = "Save the movie to your own personal list!";
+
+"ONBOARDING_SEARCH" = "Discover over 800K+ Movies";
+"ONBOARDING_SEARCH_DESCRIPTION" = "Powered by TMDB, CineWatch provides you over 800K+ movies and TV shows to discover!";
+
+"WATCHLIST_UPDATE_DESCRIPTION" = "To give you more room to discover, we've moved watchlist tab to the account menu. Here's how to navigate to your watchlist:";
+"WATCHLIST_STEP1" = "Click on the \"Search\" tab";
+"WATCHLIST_STEP1_DESCRIPTION" = "You'll found it on the far right once you completed this step.";
+
+"WATCHLIST_STEP2" = "Click on the \"Account\" image";
+"WATCHLIST_STEP2_DESCRIPTION" = "You'll found it on the top right Search page.";
+
+"WATCHLIST_STEP3" = "Click on \"🎞 Watch List\"";
+"WATCHLIST_STEP3_DESCRIPTION" = "Tada! You found it.";
+
+// State
+"LOADING" = "Loading";
+"GETTING_MORE_MOVIES" = "Getting More Movies...";
+
+// Action
+"NEXT" = "Next";
+"DONE" = "Done";
+"TRY_AGAIN" = "Try Again";
+"ACTION_CANCEL" = "Cancel";
+"ACTION_CONFIRM" = "Yes";
+
+// Tab menu
+"DISCOVER" = "Discover";
+"NOW_PLAYING" = "Now Playing";
+"UPCOMING" = "Upcoming";
+"WATCH_LIST" = "Watch List";
+"SEARCH" = "Search";
+"GENRE" = "Genre";
+
+// Movie detail
+"SHARE_SHEET_TEXT %@" = "I just discovered %@ in CineWatch. Go check out this movie!";
+"DURATION_MIN" = "Minute(s)";
+"CHARACTER_AS" = "as";
+
+// Search view
+"DISCOVER_CINEWATCH" = "Popular on CineWatch";
+"RESULTS_FOR %@" = "Results for \"%@\"";
+
+// Account view
+"MY_ACCOUNT" = "My Account";
+"ACCOUNT" = "Account";
+"GENERAL" = "General";
+"SOFTWARE_LICENSE" = "Software License";
+"LICENSES" = "Licenses";
+"MEET_THE_DEVELOPER" = "Meet the Developer";
+"DEVELOPER_INFO" = "Developer Info";
+"PERSONAL_DETAILS" = "Personal Details";
+"CLEAR_WATCHLIST" = "Clear Watchlist";
+"ALERT_CLEAR_WATCHLIST" = "Clear watchlist?";
+"ALERT_CLEAR_WATCHLIST_DESCRIPTION" = "All movie on your watchlist will be deleted and cannot be recovered.";

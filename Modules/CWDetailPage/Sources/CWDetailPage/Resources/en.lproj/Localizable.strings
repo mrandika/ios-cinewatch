@@ -1,0 +1,13 @@
+"MOVIE_DETAIL" = "Movie Detail";
+"ADD_WATCHLIST" = "Add to Watchlist";
+"REMOVE_WATCHLIST" = "Remove from Watchlist";
+"ALERT_REMOVE_WATCHLIST" = "Delete from watchlist?";
+"ALERT_REMOVE_WATCHLIST_DESCRIPTION" = "This movie will deleted from your watchlist, however, you can add it again anytime.";
+"GENRES" = "Genre(s)";
+"RUNTIME" = "Runtime";
+"RELEASE_DATE" = "Release Date";
+"ABOUT_THIS_MOVIE" = "About This Movie";
+"CASTS" = "Cast(s)";
+"SHOW_ALL" = "Show All";
+"SHOW_LESS" = "Show Less";
+"PRODUCTION_HOUSE" = "Production House";

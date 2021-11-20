@@ -1,0 +1,13 @@
+"MOVIE_DETAIL" = "Detail Film";
+"ADD_WATCHLIST" = "Tambahkan ke Daftar";
+"REMOVE_WATCHLIST" = "Hapus dari Daftar";
+"ALERT_REMOVE_WATCHLIST" = "Hapus dari Daftar Tonton?";
+"ALERT_REMOVE_WATCHLIST_DESCRIPTION" = "Film ini akan dihapus dari daftar tontonmu, tetapi, kamu bisa menambahkannya kembali kapan saja.";
+"GENRES" = "Genre";
+"RUNTIME" = "Durasi";
+"RELEASE_DATE" = "Tanggal Rilis";
+"ABOUT_THIS_MOVIE" = "Tentang Film Ini";
+"CASTS" = "Pemeran";
+"SHOW_ALL" = "Tampilkan Semua";
+"SHOW_LESS" = "Tampilkan Sedikit";
+"PRODUCTION_HOUSE" = "Rumah Produksi";

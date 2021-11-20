@@ -1,0 +1,18 @@
+// HTTP/Remote error message
+"HTTP_ERROR_EXPLANATION" = "There was a problem while your request";
+"CUSTOM_NETWORK_ERROR_EXPLANATION" = "There was a problem with your request";
+"HTTP_REDIRECTION" = "seems like there was tangling on TMDB API.";
+"HTTP_CLIENT_ERROR" = "seems like there was a problem with CineWatch.";
+"HTTP_SERVER_ERROR" = "seems like there was a problem TMDB API.";
+"AF_PROCESS_ERROR" = "seems like there was a problem contacting the TMDB API.";
+
+// Realm/Local error message
+"DECODING_ERROR_EXPLANATION" = "There was a problem while getting the movies";
+"LDB_ERROR_EXPLANATION" = "There was a problem contacting the database";
+"CUSTOM_DATA_ERROR_EXPLANATION" = "There was a problem with your request";
+"REALM_INIT_FAIL" = "seems like the database out of contact.";
+"REALM_WRITE_FAIL" = "seems like the database fail to write the data.";
+"REALM_READ_FAIL" = "seems like the database fail while reading the data.";
+"REALM_DELETE_FAIL" = "seems like the database fail while deleting the data.";
+"AF_DECODER_FAIL" = "seems like the data is in incorrect format.";
+"LOCAL_STORAGE_EMPTY" = "seems like is empty in here.";
